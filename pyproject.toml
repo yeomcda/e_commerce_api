@@ -7,8 +7,11 @@ authors = ["yeomc"]
 [tool.poetry.dependencies]
 python = "^3.10"
 tortoise-orm = {extras = ["asyncmy"], version = "^0.18.1"}
-fastapi = "^0.73.0"
+fastapi = "^0.70.0"
 uvicorn = {extras = ["standard"], version = "^0.17.1"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+fastapi-mail = "^1.0.2"
+python-dotenv = "^0.19.2"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
