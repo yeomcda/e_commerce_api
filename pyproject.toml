@@ -12,6 +12,7 @@ uvicorn = {extras = ["standard"], version = "^0.17.1"}
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 fastapi-mail = "^1.0.2"
 python-dotenv = "^0.19.2"
+PyJWT = "^2.3.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
